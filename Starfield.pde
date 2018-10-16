@@ -53,7 +53,7 @@ class OddballParticle implements Particle{
 		myY++;
 	}
 	void show(){
-		fill(20);
+		fill(100);
 		ellipse(myX,myY, mySize,mySize);
 	}
 }
